@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{pgfplots}
+
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[
+    axis lines=center,
+    axis equal,
+    xlabel={$x$},
+    ylabel={$y$},
+    xmin=-2*pi, xmax=2*pi,
+    ymin=-0.6, ymax=0.6,
+    xtick={-6.28318, -3.14159, 0, 3.14159, 6.28318},
+    xticklabels={$-2\pi$, $-\pi$, $0$, $\pi$, $2\pi$},
+    ytick={-0.5, 0, 0.5},
+    legend style={at={(1,0.5)},anchor=west},
+]
+
+\addplot[blue, domain=-2*pi:2*pi, samples=400] ({0.5*cos(deg(x))}, {0.5*sin(deg(x))});
+\addlegendentry{$f(x) = \left(\frac{1}{2}\cos x, \frac{1}{2}\sin x\right)$}
+
+\end{axis}
+\end{tikzpicture}
+\end{document}

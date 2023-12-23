@@ -1,0 +1,26 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}\relax 
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdução}}{11}{chapter.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Espaços e Funções Mensuráveis}}{14}{chapter.2}%
+\contentsline {section}{\numberline {2.1}O Conceito de $\sigma $-álgebra\tmspace +\thickmuskip {.2777em}}{14}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Funções Mensuráveis}{19}{section.2.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {A Teoria da Medida}}{28}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Os Espaços de Funções Mensuráveis}{28}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Espaços de Medida}{36}{section.3.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Teoria da Integração}}{45}{chapter.4}%
+\contentsline {section}{\numberline {4.1}A Integral de Funções Simples}{45}{section.4.1}%
+\contentsline {section}{\numberline {4.2}A Integral de Funções Não-Negativas}{50}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Funções Integráveis}{60}{section.4.3}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Considerações Finais}}{64}{chapter.5}%
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\MakeTextUppercase {REFER\^ENCIAS}}{66}{section*.26}%
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\'INDICE}{67}{section*.27}%

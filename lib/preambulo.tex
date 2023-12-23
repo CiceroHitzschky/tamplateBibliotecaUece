@@ -1,0 +1,179 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Customizações do abnTeX2 (http://abnTeX2.googlecode.com)           %%
+%% para a Universidade Estadual do Ceara - UECE                       %%
+%%                                                                    %%
+%% This work may be distributed and/or modified under the             %% 
+%% conditions of the LaTeX Project Public License, either version 1.3 %%
+%% of this license or (at your option) any later version.             %%
+%% The latest version of this license is in                           %%
+%%   http://www.latex-project.org/lppl.txt                            %%
+%% and version 1.3 or later is part of all distributions of LaTeX     %%
+%% version 2005/12/01 or later.                                       %%
+%%                                                                    %%
+%% This work has the LPPL maintenance status `maintained'.            %%
+%%                                                                    %%
+%% The Current Maintainer of this work is Thiago Nascimento           %%
+%%                                                                    %%
+%% Project available on: https://github.com/thiagodnf/uecetex2        %%
+%%                                                                    %%
+%% Further information about abnTeX2                                  %%
+%% are available on http://abntex2.googlecode.com/                    %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Alteração da ABNT
+\bibliographystyle{abntex2-2023.bst}
+
+% Importações de pacotes
+\usepackage[utf8]{inputenc}                         % Acentuação direta
+\usepackage[T1]{fontenc}                            % Codificação da fonte em 8 bits
+\usepackage{graphicx}                               % Inserir figuras
+\usepackage{amsfonts, amssymb, amsmath}             % Fonte e símbolos matemáticos
+
+\usepackage{tikz}
+\usetikzlibrary{spy}
+\usepackage{pgf}
+\usepackage{pgfplots}
+\usetikzlibrary{positioning,shapes,fit,calc}
+\usetikzlibrary{patterns}
+\usepackage{ragged2e}
+\usepackage{booktabs}                               % Comandos para tabelas
+\usepackage{verbatim}                               % Texto é interpretado como escrito no documento
+\usepackage{multirow, array}                        % Múltiplas linhas e colunas em tabelas
+\usepackage{multicol}
+\usepackage{indentfirst}                            % Endenta o primeiro parágrafo de cada seção.
+\usepackage{listings}                               % Utilizar codigo fonte no documento
+\usepackage{xcolor}
+\usepackage{microtype}                              % Para melhorias de justificação?
+\usepackage[portuguese,ruled,lined]{algorithm2e}    % Escrever algoritmos
+\usepackage{algorithmic}                            % Criar Algoritmos  
+%\usepackage{float}                                  % Utilizado para criação de floats
+\usepackage{amsgen}
+\usepackage{lipsum}                                 % Usar a simulação de texto Lorem Ipsum
+%\usepackage{titlesec}                               % Permite alterar os títulos do documento
+\usepackage{tocloft}                                % Permite alterar a formatação do Sumário
+\usepackage{etoolbox}                               % Usado para alterar a fonte da Section no Sumário
+\usepackage[nogroupskip,nonumberlist,acronym]{glossaries}                % Permite fazer o glossario
+\usepackage{caption}                                % Altera o comportamento da tag caption
+\usepackage[alf, abnt-emphasize=bf, bibjustif, recuo=0cm, abnt-etal-cite=3, abnt-etal-list=0,abnt-etal-text=it]{abntex2cite}  % Citações padrão ABNT
+%\usepackage[bottom]{footmisc}                      % Mantém as notas de rodapé sempre na mesma posição
+%\usepackage{times}                                 % Usa a fonte Times
+\usepackage{mathptmx}                               % Usa a fonte Times New Roman										
+%\usepackage{lmodern}                               % Usa a fonte Latin Modern
+%\usepackage{subfig}                                % Posicionamento de figuras
+%\usepackage{scalefnt}                              % Permite redimensionar tamanho da fonte
+%\usepackage{color, colortbl}                       % Comandos de cores
+%\usepackage{lscape}                                % Permite páginas em modo "paisagem"
+%\usepackage{ae, aecompl}                           % Fontes de alta qualidade
+%\usepackage{picinpar}                              % Dispor imagens em parágrafos
+%\usepackage{latexsym}                              % Símbolos matemáticos
+%\usepackage{upgreek}                               % Fonte letras gregas
+\usepackage{appendix}                               % Gerar o apendice no final do documento
+\usepackage{paracol}                                % Criar paragrafos sem identacao
+\usepackage{lib/uecetex2}		                    % Biblioteca com as normas da UECE para trabalhos academicos
+\usepackage{pdfpages}                               % Incluir pdf no documento
+\usepackage{amsmath}                                % Usar equacoes matematicas
+\usepackage{chngcntr}
+\usepackage{colortbl}
+\counterwithout{equation}{chapter} 
+% \usepackage{setspace} %mudança do tam. da letra??? 
+\usepackage{leading}
+
+%%%%%%%%%%%%%%%%%%%
+\newtheorem{corollary}{Corolário}[section]
+\newtheorem{proposition}{Proposição}[section] 
+\newtheorem{definition}{Definição}[section]
+\newtheorem{theorem}{Teorema}[section]
+\newtheorem{lemma}{Lema}[section]
+\newtheorem{problem}{Problema}[section]
+\newtheorem{example}{Exemplo}[section]
+\newtheorem{counterexample}{Contraexemplo}[section]
+\newtheorem{remark}{Observação}[section]
+\newtheorem{axiom}{Axioma}
+%%%%%%%%%%%%%
+
+
+% Organiza e gera a lista de abreviaturas, simbolos e glossario
+\makeglossaries
+
+% Gera o Indice do documento
+\makeindex
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Citações diretas  %%%%%%%%%%%%%%%%%%%%%%%%%% setstretch{1.0} \singlespacing
+
+\newenvironment{citlon}
+{\vspace{0.5cm} \hfill\begin{minipage}[c]{12cm}\leading{13pt}\small }
+{\end{minipage}\vspace{0.5cm}}
+% \hfill preenche o texto a direita
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Minhas Modificações  %%%%%%%%%%%%%%%%%%%%%%%%%% 
+\usepackage{csquotes}                                % Permite o uso das aspas por meio do \quote{}
+
+\newcommand{\R}{\mathbb{R}}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\dlim}{\displaystyle \lim}
+
+\newcommand{\dint}{\displaystyle \int}
+
+\newcommand{\dsum}{\displaystyle \sum}
+
+\DeclareMathOperator{\seno}{\textrm{\ seno\ }}
+\DeclareMathOperator{\xreta}{\overline{\R}}
+
+\DeclareMathOperator{\menfus}{\textit{M}(\textit{X}, \mathcal{C} )}
+
+\DeclareMathOperator{\xborel}{\overline{\borel}}
+
+\renewcommand{\mod}[3]{#1 \equiv #2 \ (\textrm{mod} \ #3)}
+
+\DeclareMathOperator{\dps}{\displaystyle}
+\newcommand{\sigal}{$\sigma$-álgebra\;}
+\newcommand{\sigals}{$\sigma$-álgebras\;}
+\DeclareMathOperator{\borel}{\mathcal{B}}
+\DeclareMathOperator{\cc}{\mathcal{C}}
+\DeclareMathOperator{\pp}{\mathcal{P}}
+
+
+\newcommand{\supercite}[2]{(\citeauthor{#1}, \citeyear{#1}, #2)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\DeclareMathOperator{\N}{\mathbb{N}}
+\DeclareMathOperator{\Z}{\mathbb{Z}}
+\DeclareMathOperator{\Q}{\mathbb{Q}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newenvironment{prova}
+{\vspace{-0.2cm}\par\smallskip\noindent\textit{Demonstração.}\newline \indent}
+{\vspace{-0.2cm}{\par\medskip\hfill$\square$\par}}
+
+
+
+%%%%%%%%%%%%%%%% Organizção dos Teoremas e Proposições %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Exigencia do Claudemir
+
+\newcounter{contador} % Contador personalizado
+\NewDocumentEnvironment{resultado}{ O{} m }{
+    \vspace{-0.2cm}
+    \par\medskip % Espaçamento
+    \ifnum\value{section}>1
+      \setcounter{contador}{0}% Reinicia o contador no início de cada seção
+    \fi
+  \refstepcounter{contador}% Incrementa o contador
+    \noindent\textbf{#2}\if\relax\detokenize{#1}\relax\else\hspace{0.1cm}\textbf{(#1)}\fi% Nome em negrito (obrigatório e opcional)
+  \hspace{0.1cm}\textbf{\arabic{chapter}.\arabic{section}.\arabic{contador}} % Informações do contador
+    \ignorespaces % Remove indentação
+}{
+    \par\medskip % Espaçamento
+}
+
+\newtheorem{myenvinner}{}[section]
+\newenvironment{env}[1]{%
+  \vspace{-0.3cm}
+  \renewcommand\themyenvinner{{#1} \thesection.\arabic{myenvinner}}%
+  \begin{myenvinner}%
+  \normalfont
+}{\vspace{-0.2cm}\end{myenvinner}%
+}

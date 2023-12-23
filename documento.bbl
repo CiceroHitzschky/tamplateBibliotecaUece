@@ -1,0 +1,57 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v<VERSION> }
+
+\bibitem[Barbosa 2006]{lucas}
+\abntrefinfo{Barbosa}{Barbosa}{2006}
+{BARBOSA, J. L.~M. \textbf{Geometria Euclidiana Plana}. [S.l.]: Sociedade
+  Brasileira de Matemática, 2006.  (Coleção do Professor de Matemática;).
+ISBN 8585818026; 9788585818029.}
+
+\bibitem[Bartle 1995]{bartle}
+\abntrefinfo{Bartle}{Bartle}{1995}
+{BARTLE, R.~G. \textbf{The Elements of Integration and Lebesgue Measure}. 1.
+  ed. New York: Wiley-Interscience, 1995.}
+
+\bibitem[Boyer 2012]{boy}
+\abntrefinfo{Boyer}{Boyer}{2012}
+{BOYER, C.~B. \textbf{\textbf{História da Matemática}}. 3. ed. São Paulo:
+  Blucher, 2012.}
+
+\bibitem[Fernandez 2002]{pedro}
+\abntrefinfo{Fernandez}{Fernandez}{2002}
+{FERNANDEZ, P.~J. \textbf{Medida e Integração, 2a Edição}. [S.l.]: IMPA,
+  2002.}
+
+\bibitem[Gil 2002]{gil}
+\abntrefinfo{Gil}{Gil}{2002}
+{GIL, A.~C. \textbf{{Como elaborar projetos de pesquisa}}. 4. ed. São Paulo:
+  Atlas S. A, 2002. Disponível em:
+  \url{https://files.cercomp.ufg.br/weby/up/150/o/Anexo_C1_como_elaborar_projeto_de_pesquisa_-_antonio_carlos_gil.pdf}.
+  Acesso em: 30 de dez. 2021.}
+
+\bibitem[Lima 2019]{elon}
+\abntrefinfo{Lima}{Lima}{2019}
+{LIMA, E.~L. \textbf{\textbf{Um Curso de Análise}}. 15. ed. Rio de Janeiro:
+  IMPA, 2019. v.~1.}
+
+\bibitem[Magalhaes 2011]{magalhaes}
+\abntrefinfo{Magalhaes}{Magalhaes}{2011}
+{MAGALHAES, M.~N. \textbf{Probabilidade e Variáveis Aleatórias}. 3. ed. São
+  Paulo: EdUsp, 2011.}
+
+\bibitem[Prodanov e Freitas 2013]{profreitas}
+\abntrefinfo{Prodanov e Freitas}{Prodanov; Freitas}{2013}
+{PRODANOV, C.~C.; FREITAS, E.~C. de. \textbf{Como elaborar projetos de
+  pesquisa}. 2. ed. Rio Grande do Sul: Feevale, 2013.}
+
+\bibitem[Rudin 1976]{rudin}
+\abntrefinfo{Rudin}{Rudin}{1976}
+{RUDIN, W. \textbf{Principles of mathematical analysis}. 3d ed. ed. [S.l.]:
+  McGraw-Hill, 1976.  (International series in pure and applied mathematics).
+ISBN 007054235X; 9780070542358.}
+
+\end{thebibliography}

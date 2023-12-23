@@ -1,0 +1,107 @@
+\chapter{Introdução}
+\label{chap:intro}
+% Justificativa
+    Conseguir medir grandezas é essencial em nosso cotidiano.
+    Medimos tempo, distância, velocidade, etc.
+    Embora seja usada constantemente nos dias atuais, a ação de medir é bem antiga possuindo registro de seu uso em 3100 a.C.
+    Em relação à essa época, Boyer (\citeyear{boy}) expõe que os egípcios possuíam uma precisão grandiosa no que se referia a contar e medir;
+    com essa habilidade, fizeram feitos extraordinários como o calendário solar e a construção das pirâmides.
+    Ou seja, a ação de medir era dada de forma empírica não havendo o rigor matemático que conhecemos hoje.
+   
+    \enquote{%
+    	Pelo fim do século dezenove, a ênfase no rigor levou numerosos matemáticos à produção de exemplos de funções `patológicas' que, devido a alguma propriedade incomum, violavam um teorema que antes se supunha válido em geral%
+    } \cite[p. 415]{boy}.
+    Isso gerou um grande movimento matemático, no século XX, que tinha como objetivo trazer um rigor unificado à matemática.
+    Foi nesse movimento que o matemático francês Henri Lebesgue (1875-1941) notou aplicações limitadas da integral de Riemann através do seguinte pensamento:
+    
+    \begin{citlon}
+    	Lebesgue, refletindo sobre o trabalho de Borel sobre conjuntos, viu que a definição de Riemann de integral tem o defeito de só se aplicar a casos
+    	excepcionais, pois assume não mais que uns poucos pontos de descontinuidade para a função.
+    	Se uma função $y = f(x)$ tem muitos pontos de descontinuidade, então, à medida que o intervalo $x_{i+1} - x_i$
+    	se torna menor, os valores $f(x_{i+1})$ e $f(x_i)$ não ficam
+    	necessariamente próximos \cite[p. 416]{boy}.  	
+    \end{citlon}
+
+   % tema
+    Para resolver este problema, Lebesgue decidiu inverter a ordem da construção que Riemann fizera:
+    
+    \begin{citlon}
+    	Em vez de subdividir o domínio da variável independente, Lebesgue dividiu, portanto, o campo de variação $\overline{f} - f$ [isto é, a variação da imagem da função]
+    	da função em subintervalos $\Delta y_i$ e em cada subintervalo
+    	escolheu um valor $\eta_1$. 
+    	Então, achou a \enquote{medida} $\mu(E_i)$ do conjunto $E_i$ dos pontos do eixo $x$ para os
+    	quais os valores de $f$ são aproximadamente iguais a $\eta_1$\cite[p. 416]{boy}.
+    \end{citlon}\\
+    A integral que foi gerada por meio da construção anterior recebeu o nome de Integral de Lebesgue que é o tema deste trabalho.
+    
+    % Problematização e Problema de Pesquisa
+    Realizando uma pesquisa com a frase \enquote{ensino de cálculo diferencial e integral} na Biblioteca Digital Brasileira de Teses e Dissertações (BDTD), sem
+    aspas, foram retornados 310 resultados na data do dia 29 de Outubro de 2023 às 10 horas da manhã.
+    Ao observar título e resumo dos trabalhos retornados como resultado da busca, nenhum deles tratava da integral de Lebesgue para alunos de graduação em ciências exatas.
+    Grande parte dos trabalhos eram voltados à reflexão do ensino de cálculo diferencial e integral na perspectiva de Riemann ou aplicações dela.
+    Mediante esta ausência, esta pesquisa levanta o seguinte questionamento: de que forma pode ser apresentada a teoria da medida e integração de Lebesgue de maneira elementar para os alunos de graduação em ciências exatas?
+    
+    % Objetivos Gerais e Específicos
+    Com base nisso, o objetivo geral desta pesquisa é conhecer algumas definições e resultados da teoria da medida e da integração de Lebesgue de forma elementar.
+    Esse estudo estabeleceu três objetivos específicos: 
+    definir a base do estudo da teoria da medida por meio dos espaços mensuráveis,
+    conhecer a teoria da medida de maneira generalizada e descrever o processo da construção da integral de Lebesgue mediante o avanço da teoria da medida.
+    
+    % Prévias dos capítulos
+  	
+  	Na primeira seção definimos toda a base de nosso estudo tratando dos conceitos de $\sigma$-álgebra, espaços mensuráveis e funções mensuráveis.
+  	Todos esses conceitos são vastamente explorados por meio de exemplos.
+  	Em particular, é apresentada a $\sigma$-álgebra de Borel, bem como é revisada a estrutura de conjuntos abertos na reta numérica.
+  	Também mostramos propriedades aritméticas e resultados sobre funções mensuráveis.
+  	Por fim, a seção é finalizada com os conceitos de parte positiva e parte negativa de uma função real.
+  	
+  	Adiante apresentamos, na segunda seção, a teoria da medida. 
+  	Para isso, iniciamos com uma generalização dos conceitos da seção anterior utilizando a reta real estendida.
+  	Estendemos as definições e resultados de funções mensuráveis para valores reais estendidos.
+  	Encerramos a seção apresentando o conceito geral de medida sobre um espaço mensurável apontando exemplos interdisciplinares tais como a função de probabilidade e a medida de um conjunto discreto.
+  	
+  	Na última seção, mostramos a construção da integral de Lebesgue para funções simples, funções mensuráveis não negativas e funções mensuráveis quaisquer, respectivamente.
+  	Desenvolvemos propriedades e condições de integrabilidade ressaltando teoremas relevantes como o Teorema da Convergência Monótona e o Lema de Fatou.
+  	Posteriormente abordamos um vasto número de proposições e propriedades sobre integrais com a finalidade de familiarização sendo a seção terminada com o Teorema da Convergência Dominada de Lebesgue.
+  	
+  
+  	% Metodologia
+  	
+  	A pesquisa que foi realizada tem natureza básica, pois segundo \cite[p. 51]{profreitas} uma pesquisa básica
+  	\enquote{objetiva gerar conhecimentos novos úteis para o avanço da ciência sem aplicação prática prevista. Envolve verdades e interesses universais}. 
+  	
+  	Além disso, de acordo com o mesmo autor, a pesquisa também constou com uma abordagem quantitativa uma vez que os fatos podem ser relevados fora de uma complexidade social, econômica e política \cite{profreitas}. 
+  	Pode-se observar, ainda, que a pesquisa teve objetivo exploratório, pois segundo \citeauthor{gil}:
+  	
+  	\begin{citlon}
+  		As pesquisas exploratórias têm como propósito proporcionar maior familiaridade com o problema, com vistas a torná-lo mais explícito ou a construir hipóteses. 
+  		Seu planejamento tende a ser bastante flexível, pois interessa considerar os mais variados aspectos relativos ao tato ou fenômeno estudado.
+  		A coleta de dados pode ocorrer de diversas maneiras, mas geralmente envolve: 1.levantamento bibliográfico;
+  		2. entrevistas com pessoas que tiveram experiência prática com o assunto; 
+  		e 3. análise de exemplos que estimulem a compreensão (SELLTIZ et al., 1967, p. 63). 
+  		Em virtude dessa flexibilidade, torna-se difícil, na maioria dos casos, "rotular" os estudos exploratórios, mas é possível identificar pesquisas bibliográficas, estudos de caso e mesmo levantamentos de campo que podem ser considerados estudos exploratórios (\citeyear{gil}, p. 33).
+  	\end{citlon}
+  	
+  	Como fora supracitado, pode-se atribuir vários procedimentos técnicos à pesquisas exploratórias. 
+  	O nosso procedimento técnico foi realizado por meio de uma pesquisa bibliográfica pois foi elaborada com base em material já publicado \cite{gil}.
+  	
+  	Por fim, sugerimos como pode ser apresentada a teoria da medida e da integração de Lebesgue para alunos de graduação em ciências exatas.
+  	Utilizando a ordem com que os conteúdos foram desenvolvidos e organizados neste trabalho, bem como o uso das ilustrações nele presentes.
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

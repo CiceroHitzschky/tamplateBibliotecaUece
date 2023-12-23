@@ -1,0 +1,76 @@
+\chapter{Fundamentação Teórica para Os Espaços $L^P$}
+
+\section{Números Reais e a Reta estendida}
+Por toda a graduação em matemática trabalhamos incansáveis vezes com o conjunto dos números reais, $\R$.
+Embora exista algumas formas de construí-lo, trataremos-o como um conjunto que possui atributos especiais, isto é, não nos preocuparemos com sua natureza intrínseca, mas sim como ele funciona.
+Com isso, enunciamos o 
+
+\begin{axiom}
+\label{ax:reais}
+    Existe um corpo ordenado completo $\R$ chamado o conjunto dos números Reais.
+\end{axiom}
+
+Este axioma resume bem como trataremos o conjunto $\R$ aqui. 
+Com o intuito de realmente garantir o entendimento do axioma acima lembraremos algumas definições adiante.
+
+\begin{definition}
+\label{def:corpo}
+    Um corpo é um conjunto $K$ munido de duas operações que chamamos comumente de adição e multiplicação tais que nele são satisfeitas as seguintes condições:
+    \begin{enumerate}[label*=(\roman*)]
+        \item $(x + y) + z = x + (y + z)$;
+        \item $x + y = y + x$;
+        \item Existe um elemento $0 \in K$ tal que $x + 0 = x$;
+        \item Dado $x \in K$, existe um elemento $-x$ tal que $x + (-x) = 0$;
+        \item $(x \cdot y) \cdot z = x \cdot (y \cdot z)$;
+        \item $x \cdot y = y \cdot x$;
+        \item Existe um elemento $1 \in K$ tal que $x \cdot 1 = x$;
+        \item Dado $x \in K$, com $x \neq 0$, existe um elemento $x^{-1}$ tal que $x \cdot x^{-1} =1$;
+        \item $x\cdot (y + z ) = x\cdot y + x \cdot z$.
+    \end{enumerate}
+    Para quaisquer que forem $x,y,z \in K$.
+\end{definition}
+
+\begin{definition}
+    Um corpo $K$ é dito ordenado quando nele vale a tricotomia. Ou seja, dados $x, y \in K$ apenas uma das alternativas abaixo ocorre:
+    \begin{enumerate}[label* = (\roman*)]
+        \item x = y;
+        \item x < y;
+        \item x > y.
+    \end{enumerate}
+\end{definition}
+
+\begin{definition}
+    Seja $K$ um corpo ordenado, chamamos de módulo de $x$, e denotamos por $|x|$, sendo
+    $$|x| = \left\{\begin{array}{cc}
+        x, & \textrm{\ se $x \geq 0$\ }  \\
+        -x, &\textrm{\ se $x <0$\ } 
+    \end{array}\right.$$
+\end{definition}
+
+Em um corpo ordenado, alguns conjuntos devem receber um cuidado especial. Esses são chamados de \textit{Intervalos}.
+Dados $a,b \in K$, com $a < b$, dizemos que o intervalo aberto $(a,b)$ é o conjunto de todos os pontos $x \in K$ tal que $a < x< b$. 
+Analogamente definimos o intervalo fechado $[a,b] = \{x \in K; \ a \leq x \leq b\}$.
+
+
+% Cotas Superiores e Inferiores
+
+Um subconjunto $X$ de um corpo ordenado $K$ é dito limitado \textit{superiormente (inferiormente)} quando existe um elemento $b \in K$ tal que $b \geq x \ (b\leq x)$ para todo $x \in X$. Cada elemento $b \in K$, com esta propriedade, é chamado de cota \textit{superior (inferior)}.
+
+Por fim, as definições a seguir são as que caracterizam o conjunto dos números reais de maneira tão especial.
+
+\begin{definition}
+    Sejam $K$ um corpo ordenado e $X \subset K$ um subconjunto limitado superiormente.
+    Um elemento $b \in K$ chama-se supremo do subconjunto $X$ quando $b$ é a menor das cotas superiores de $X$ em $K$.
+    Denotamos $b = \sup{X}$
+\end{definition}
+
+Para que $b \in K$ seja o supremo de um conjunto $X \subset K$ é necessário que se tenha:
+\begin{enumerate}
+    \item $\forall \ x \in X$, tem-se $x \leq b$;
+    \item Se $c \in K$ é tal que $x \leq c, \ \forall x \in X$, então $b\leq c$.
+    
+\end{enumerate}
+
+
+\section{Funções Reais} 
+\section{A Integral de Riemann}
